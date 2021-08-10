@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/fighting" xmlns:tns="http://www.example.org/fighting" elementFormDefault="qualified">
+
+	<complexType name="implementation">
+		<element name="class-name" type="string"/>
+	</complexType>
+	
+	<complexType name="achievement">
+		<element name="identifier" type="string"/>
+		<element name="category" tyoe="string"/>
+		<element name="title" type="string"/>
+		<element name="description" type="string"/>
+		<element name="score" type="integer"/>
+		<element name="active" type="boolean"/>
+		<element name="condition" type="string"/>
+	</complexType>
+
+</schema>

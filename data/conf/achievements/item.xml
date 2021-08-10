@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>		
+<groups xmlns="stendhal" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="../achievements.xsd ">
+	
+	<achievement
+		identifier="item.money.100"
+		category="ITEM"
+		title="First pocket money"
+		description="Loot 100 money from creatures"
+		score=EASY_BASE_SCORE
+		active=true>
+		<condition condition ="PlayerLootedNumberOfItemsCondition" value="100|money"
+		
+		</condition>
+	</achievement>
+	
+	<achievement
+		identifier="item.money.1000000"
+		category="ITEM"
+		title="You don't need it anymore"
+		description="Loot 1000000 money from creatures"
+		score=HARD_BASE_SCORE
+		active=true>
+		<condition condition ="PlayerLootedNumberOfItemsCondition" value="1000000|money"
+		
+		</condition>
+	</achievement>
+	
+	<achievement
+		identifier="item.set.red"
+		category="ITEM"
+		title="Amazon's Menace"
+		description="Loot a complete red equipment set"
+		score=MEDIUM_BASE_SCORE
+		active=true>
+		<condition condition ="PlayerLootedNumberOfItemsCondition" value="1|red armor|red helmet|red cloak|red legs|red boots|red shield"
+		
+		</condition>
+	</achievement>
+	
+	<achievement
+		identifier="item.set.blue"
+		category="ITEM"
+		title="Feeling Blue"
+		description="Loot a complete blue equipment set"
+		score=MEDIUM_BASE_SCORE
+		active=true>
+		<condition condition ="PlayerLootedNumberOfItemsCondition" value="1|blue armor|blue helmet|blue striped cloak|blue legs|blue boots|blue shield"
+		
+		</condition>
+	</achievement>
+	
+	<achievement
+		identifier="item.set.elvish"
+		category="ITEM"
+		title="Nalwor's Bane"
+		description="Loot a complete elvish equipment set"
+		score=MEDIUM_BASE_SCORE
+		active=true>
+		<condition condition ="PlayerLootedNumberOfItemsCondition" value="1|elvish armor|elvish hat|elvish cloak|elvish legs|elvish boots|elvish shield"
+		
+		</condition>
+	</achievement>
+	
+	<achievement
+		identifier="item.set.shadow"
+		category="ITEM"
+		title="Shadow Dweller"
+		description="Loot a complete shadow equipment set"
+		score=MEDIUM_BASE_SCORE
+		active=true>
+		<condition condition ="PlayerLootedNumberOfItemsCondition" value="1|shadow armor|shadow helmet|shadow cloak|shadow legs|shadow boots|shadow shield"
+		
+		</condition>
+	</achievement>	
+	
+	
+	<achievement
+		identifier="item.set.chaos"
+		category="ITEM"
+		title="Chaotic Looter"
+		description="Loot a complete chaos equipment set"
+		score=HARD_BASE_SCORE
+		active=true>
+		<condition condition ="PlayerLootedNumberOfItemsCondition" value="1|chaos armor|chaos helmet|chaos cloak|chaos legs|chaos boots|chaos shield"
+		
+		</condition>
+	</achievement>	
+
+
+	<achievement
+		identifier="item.set.golden"
+		category="ITEM"
+		title="Golden Boy"
+		description="Loot a complete golden equipment set"
+		score=MEDIUM_BASE_SCORE
+		active=true>
+		<condition condition ="PlayerLootedNumberOfItemsCondition" value="1|golden armor|golden helmet|golden cloak|golden legs|golden boots|golden shield"
+		
+		</condition>
+	</achievement>	
+
+
+	<achievement
+		identifier="item.set.black"
+		category="ITEM"
+		title="Come to the dark side"
+		description="Loot a complete black equipment set"
+		score=HARD_BASE_SCORE
+		active=true>
+		<condition condition ="PlayerLootedNumberOfItemsCondition" value="1|black armor|black helmet|black cloak|black legs|black boots|black shield"
+		
+		</condition>
+	</achievement>	
+
+
+	<achievement
+		identifier="item.set.mainio"
+		category="ITEM"
+		title="Excellent Stuff"
+		description="Loot a complete mainio equipment set"
+		score=HARD_BASE_SCORE
+		active=true>
+		<condition condition ="PlayerLootedNumberOfItemsCondition" value="1|mainio armor|mainio helmet|mainio cloak|mainio legs|mainio boots|mainio shield"
+		
+		</condition>
+	</achievement>	
+
+
+	<achievement
+		identifier="item.set.xeno"
+		category="ITEM"
+		title="A Bit Xenophobic?"
+		description="Loot a complete xeno equipment set"
+		score=HARD_BASE_SCORE
+		active=true>
+		<condition condition ="PlayerLootedNumberOfItemsCondition" value="1|xeno armor|xeno helmet|xeno cloak|xeno legs|xeno boots|xeno shield"
+		
+		</condition>
+	</achievement>	
+
+
+	<achievement
+		identifier="item.cloak.dragon"
+		category="ITEM"
+		title="Dragon Slayer"
+		description="Loot all dragon cloaks"
+		score=MEDIUM_BASE_SCORE
+		active=true>
+		<condition condition ="PlayerLootedNumberOfItemsCondition" value="1|black dragon cloak|blue dragon cloak|bone dragon cloak|green dragon cloak|red dragon cloak"
+		
+		</condition>
+	</achievement>	
+
+
+
+
+</groups>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="stendhal"
+	    xmlns:tns="http://www.example.org/zones" elementFormDefault="qualified"
+	    xmlns:Q1="stendhal">
+	    
+	    <element name="achievements" type="Q1:achievementGroup"></element>
+	    
+	    <complexType name="Q1:achievementGroup">
+	    		<sequence>
+	    				<element name="achievement" type="Q1:achievementType" minOccurs="0" maxOccurs="unbounded"></element>
+	    		</sequence>
+	    </complexType>
+	    
+	    <complexType name="achievementType">
+	    		<sequence>
+	    				<element name="identifier" type="Q1:attribute"/>
+	    				<element name="title" type="Q1:attribute"></element>
+	    				<element name="description" type="Q1:attribute"></element>
+	    				<element name="score" type="Q1:attribute"></element>
+	    				<element name="active" type="boolean"></element>
+	    				<element name="condition" type="Q1:condition" minOccurs="0"></element>
+	    		</sequence>
+	    </complexType>
+	    
+	    <complexType name="condition">
+	    		<attribute name="name" type="string"></attribute>
+	    		<attribute name="parameters" type="Q1:parameter"></attribute>
+	    </complexType>
+	    
+	    <complexType name="parameters">
+	    		<attribute name="type" type="string"></attribute>
+	    		<attribute name="value" type="string"></attribute>
+	    </complexType>
+	    
+	    <complexType name="attribute">
+	    		<attribute name="value" type="string"></attribute>
+	    </complexType>
+</schema>

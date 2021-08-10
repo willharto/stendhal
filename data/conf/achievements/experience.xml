@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<groups xmlns="stendhal" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="../achievements.xsd ">
+
+<achievement identifier="xp.level.010" title="Greenhorn" category="EXPERIENCE" description="Reach level 10" score="Achievement.EASY_BASE_SCORE" active="true">
+	<condition condition="LevelGreaterThanCondition" value="9">
+	</condition>
+</achievement>
+
+<achievement identifier="xp.level.050" title="Novice" category="EXPERIENCE" description="Reach level 50" score="Achievement.EASY_BASE_SCORE" active="true">
+	<condition condition="LevelGreaterThanCondition" value="49">
+	</condition>
+</achievement>
+
+<achievement identifier="xp.level.100" title="Apprentice" category="EXPERIENCE" description="Reach level 100" score="Achievement.EASY_BASE_SCORE" active="true">
+	<condition condition="LevelGreaterThanCondition" value="99">
+	</condition>
+</achievement>
+
+<achievement identifier="xp.level.200" title="Adventurer" category="EXPERIENCE" description="Reach level 200" score="Achievement.MEDIUM_BASE_SCORE" active="true">
+	<condition condition="LevelGreaterThanCondition" value="199">
+	</condition>
+</achievement>
+
+<achievement identifier="xp.level.300" title="Experienced Adventurer" category="EXPERIENCE" description="Reach level 300" score="Achievement.MEDIUM_BASE_SCORE" active="true">
+	<condition condition="LevelGreaterThanCondition" value="299">
+	</condition>
+</achievement>
+
+<achievement identifier="xp.level.400" title="Master Adventurer" category="EXPERIENCE" description="Reach level 400" score="Achievement.MEDIUM_BASE_SCORE" active="true">
+	<condition condition="LevelGreaterThanCondition" value="399">
+	</condition>
+</achievement>
+
+<achievement identifier="xp.level.500" title="Stendhal Master" category="EXPERIENCE" description="Reach level 500" score="Achievement.HARD_BASE_SCORE" active="true">
+	<condition condition="LevelGreaterThanCondition" value="499">
+	</condition>
+</achievement>
+
+<achievement identifier="xp.level.597" title="Stendhal High Master" category="EXPERIENCE" description="Reach level 597" score="Achievement.HARD_BASE_SCORE" active="true">
+	<condition condition="LevelGreaterThanCondition" value="596">
+	</condition>
+</achievement>
+</groups>

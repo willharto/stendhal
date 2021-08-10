@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>		
+<groups xmlns="stendhal" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="../fighting.xsd ">
+	
+	<achievement
+		identifier="fight.general.rats"
+		category="fighting"
+		title="Rat Hunter"
+		description="Kill 15 rats"
+		score=1
+		active=true
+		condition="PlayerHasKilledNumberOfCreaturesCondition" value="rat|15">
+	</achievement>
+	
+	<achievement
+		identifier="fight.general.exterminator"
+		category="fighting"
+		title="Exterminator"
+		description="Kill 10 rats of each kind"
+		score=2
+		active=true
+		condition="PlayerHasKilledNumberOfCreaturesCondition" value="10|rat|caverat|razorrat|venomrat|zombie rat|giantrat|ratman|ratwoman|archrat">
+	</achievement>
+	
+	<achievement
+		identifier="fight.general.deer"
+		category="fighting"
+		title="Deer Hunter"
+		description="Kill 25 deer"
+		score=1
+		active=true
+		condition="PlayerHasKilledNumberOfCreaturesCondition" value="deer|25">
+	</achievement>
+	
+	<achievement
+		identifier="fight.general.boars"
+		category="fighting"
+		title="Boar Hunter"
+		description="Kill 20 boar"
+		score=1
+		active=true
+		condition="PlayerHasKilledNumberOfCreaturesCondition" value="boar|20">
+	</achievement>
+	
+	<achievement
+		identifier="fight.general.bears"
+		category="fighting"
+		title="Bear Hunter"
+		description="Kill 10 black bears, 10 bears and 10 baby bears"
+		score=1
+		active=true
+		condition="PlayerHasKilledNumberOfCreaturesCondition" value="10|bear|black bear|babybear">
+	</achievement>
+	
+	<achievement
+		identifier="fight.general.foxes"
+		category="fighting"
+		title="Fox Hunter"
+		description="Kill 20 foxes"
+		score=1
+		active=true
+		condition="PlayerHasKilledNumberOfCreaturesCondition" value="fox|20">
+	</achievement>
+	
+	<achievement
+		identifier="fight.general.safari"
+		category="fighting"
+		title="Safari"
+		description="Kill 30 tigers, 30 lions and 50 elephants"
+		score=1
+		active=true
+		condition="PlayerHasKilledNumberOfCreaturesCondition" value="tiger|30"
+		condition="PlayerHasKilledNumberOfCreaturesCondition" value="lion|30"
+		condition="PlayerHasKilledNumberOfCreaturesCondition" value="elephant|50">
+	</achievement>
+	
+	<achievement
+		identifier="fight.general.ents"
+		category="fighting"
+		title="Wood Cutter"
+		description="Kill 10 ents, 10 entwifes and 10 old ents"
+		score=2
+		active=true
+		condition="PlayerHasKilledNumberOfCreaturesCondition" value="">
+	</achievement>
+	
+	<achievement
+		identifier="fight.special.all"
+		category="fighting"
+		title="Legend"
+		description="Kill all creatures solo"
+		score=5
+		active=true
+		condition="PlayerHasKilledNumberOfCreaturesCondition" value="">
+	</achievement>
+	
+	<achievement
+		identifier="fight.special.allshared"
+		category="fighting"
+		title="Team Player"
+		description="Kill all creatures in a team"
+		score=5
+		active=true
+		condition="PlayerHasKilledNumberOfCreaturesCondition" value="">
+	</achievement>
+	
+</groups>

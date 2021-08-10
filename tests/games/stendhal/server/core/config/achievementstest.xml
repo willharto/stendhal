@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>		
+<achievements xmlns="stendhal" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="../achievements.xsd ">
+	
+	<achievement
+		identifier="item.money.100"
+		category="ITEM"
+		title="First pocket money"
+		description="Loot 100 money from creatures"
+		score=EASY_BASE_SCORE
+		active=true>
+		<condition condition ="PlayerLootedNumberOfItemsCondition" value="100|money"
+		
+		</condition>
+	</achievement>
+	
+	
+	<achievement
+		identifier="xp.level.010"
+		category="EXPERIENCE"
+		title="Greenhorn"
+		description="Reach level 10"
+		score=EASY_BASE_SCORE
+		active=true>
+		<condition condition ="LevelGreaterThanCondition" value="9"
+		
+		</condition>
+	</achievement>
+	
+	<achievement
+		identifier="xp.level.050"
+		category="EXPERIENCE"
+		title="Novice"
+		description="Reach level 5"
+		score=EASY_BASE_SCORE
+		active=true>
+		<condition condition ="LevelGreaterThanCondition" value="49"
+		
+		</condition>
+		
+	</achievement>
+	
+	
+	<achievement
+		identifier="fight.general.rats"
+		category="fighting"
+		title="Rat Hunter"
+		description="Kill 15 rats"
+		score=1
+		active=true
+		condition="PlayerHasKilledNumberOfCreaturesCondition" value = "rat|15"
+	</achievement>
+	
+	
+	
+</achievements>
